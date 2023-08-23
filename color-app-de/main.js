@@ -9,4 +9,8 @@
 
 // Add atleast two more color "tiles" to the page. Each tile should have a unique id.
 
-// Füge der Seite mindestens zwei weitere Farb-Kacheln hinzu mit einem click-Event-Listener, der die Hintergrundfarbe des body-Elements ändert.
+/*
+  Füge der Seite mindestens zwei weitere Farb-Kacheln hinzu mit einem click-Event-Listener,
+  der die Hintergrundfarbe des body-Elements ändert. Jede Kachel sollte eine eindeutige ID haben.
+  Füge auch den CSS-Code hinzu, um den Kacheln eine Farbe zu geben.
+*/

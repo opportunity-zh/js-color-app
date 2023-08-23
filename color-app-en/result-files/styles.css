@@ -10,6 +10,15 @@
     8. A margin of 0.
 
 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
 /*
   1. Add here the css selector for the container class.
@@ -19,12 +28,21 @@
     4. A border radius of 10px.
     5. A box shadow if you want.
 */
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 /*
   1. Add here the css selector for the h1 element.
     Inside the h1 selector add:
     2. A margin of 0 0 20px.
 */
+h1 {
+  margin-bottom: 20px;
+}
 
 /*
   1. Add here the css selector for the tiles-wrapper class.
@@ -33,6 +51,12 @@
     3. A justify center.
     4. A margin of 0 0 20px
 */
+
+.tiles-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
 /*
   1. Add here the css selector for the color-button class.
@@ -43,6 +67,13 @@
     5. A border of none.
     6. A cursor of pointer.
 */
+.color-button {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+}
 
 /*
   1. Add here the css selector for the tiles id elements (ex. id red-tile)
