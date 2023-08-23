@@ -1,0 +1,91 @@
+/*
+  1. Erstelle hier einen CSS-Selektor für den «body» tag.
+  In diesem body-Selektor füge folgendes hinzu:
+    2. Eine Schriftart (font-family).
+    3. Einen Hintergrundfarbe (background color).
+    4. Ein «display flex».
+    5. Zentriere es horizontal mit «justify center».
+    6. Zentriere es vertikal mit «align center».
+    7. Eine Höhe (height) von 100vh.
+    8. Einen Rand (margin) von 0.
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/*
+  1. Erstelle hier einen CSS-Selektor für den die CSS-Klasse «container».
+  In diesem container-Selektor füge folgendes hinzu:
+    2. Einen Hintergrundfarbe (background color).
+    3. Einen Abstand (padding) von 20px.
+    4. Einen Rand (border radius) von 10px.
+    5. Einen Schatten (box shadow), wenn du möchtest.
+*/
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*
+  1. Erstelle hier einen CSS-Selektor für den «h1» tag.
+  In diesem h1-Selektor füge folgendes hinzu:
+    2. Einen Abstand (margin) von 0 0 20px.
+*/
+h1 {
+  margin-bottom: 20px;
+}
+
+/*
+  1. Erstelle hier einen CSS-Selektor für den «tiles-wrapper» tag.
+  In diesem Selektor füge folgendes hinzu:
+    2. Ein «display flex».
+    3. Zentriere es horizontal mit «justify center».
+    4. Einen Abstand (margin) von 0 0 20px.
+*/
+
+.tiles-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/*
+  1. Erstelle hier einen CSS-Selektor für die CSS-Klasse «color-button».
+  In diesem Selektor füge folgendes hinzu:
+    2. Eine Breite (width) von 50px.
+    3. Eine Höhe (height) von 50px.
+    4. Einen Abstand (margin) von 0 10px.
+    5. Einen Rand (border) von none.
+    6. Einen Cursor (cursor) von pointer
+*/
+.color-button {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/*
+  1. Erstelle hier einen CSS-Selektor für die die button id hinzu z.B. "red-tile".
+  In diesem Selektor füge folgendes hinzu:
+    2. Einen Hintergrundfarbe (background color).
+*/
+
+#red-tile {
+  background-color: #ff0000;
+}
+#green-tile {
+  background-color: #00ff00;
+}
+#blue-tile {
+  background-color: #0000ff;
+}
