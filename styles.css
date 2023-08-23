@@ -1,3 +1,13 @@
+/*
+  1. Add here the css selector for the body element
+  2. Add a font-family.
+  3. Add a background-color.
+  4. Add a display flex.
+  5. Add a justify it to the center.
+  6. Add a align it to the center.
+  7. Add a height of 100vh.
+  8. Add a margin of 0.
+*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f0f0f0;
@@ -8,17 +18,34 @@ body {
   margin: 0;
 }
 
+/*
+  1. Add here the css selector for the .container element
+  2. Add a background-color.
+  3. Add a padding of 20px.
+  4. Add a border radius of 10px.
+  5. Add a box shadow, if you want.
+*/
 .container {
-  text-align: center;
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/*
+  1. Add here the css selector for the h1 element
+  2. Add a margin-bottom of 20px.
+*/
 h1 {
   margin-bottom: 20px;
 }
+
+/*
+  1. Add here the css selector for the .tiles-wrapper element
+  2. Add a display flex.
+  3. Add a justify it to the center.
+  4. Add a margin bottom of 20px.
+*/
 
 .tiles-wrapper {
   display: flex;
@@ -26,6 +53,14 @@ h1 {
   margin-bottom: 20px;
 }
 
+/*
+  1. Add here the css selector for the .color-button element
+  2. Add a width of 50px.
+  3. Add a height of 50px.
+  4. Add a margin of 0 10px.
+  5. Add a border of none.
+  6. Add a cursor of pointer.
+*/
 .color-button {
   width: 50px;
   height: 50px;
@@ -33,6 +68,11 @@ h1 {
   border: none;
   cursor: pointer;
 }
+
+/*
+  1. Add here the css selector for the tiles id elements (ex. id red-tile)
+  2. Add a background-color for that color tile.
+*/
 
 #red-tile {
   background-color: #ff0000;
