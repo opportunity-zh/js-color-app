@@ -20,7 +20,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-.buttons-container {
+.tiles-wrapper {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -34,12 +34,12 @@ h1 {
   cursor: pointer;
 }
 
-.red {
+#red-tile {
   background-color: #ff0000;
 }
-.green {
+#green-tile {
   background-color: #00ff00;
 }
-.blue {
+#blue-tile {
   background-color: #0000ff;
 }
